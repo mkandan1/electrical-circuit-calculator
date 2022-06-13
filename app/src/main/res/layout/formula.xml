@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <RelativeLayout tools:context=".formula"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="239dp"
+        tools:ignore="HardcodedText"
+        android:text="Current in parallel circuit"
+        android:backgroundTint="@color/primary_blue"
+        android:layout_centerInParent="true"
+        android:id="@+id/customButton"/>
+
+    <Button
+        android:id="@+id/customButton2"
+        android:layout_width="238dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/customButton"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="31dp"
+        android:backgroundTint="@color/primary_blue"
+        android:text="Voltage in series circuit"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/customButton3"
+        android:layout_width="241dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/customButton"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="24sp"
+        android:layout_marginBottom="24sp"
+        android:backgroundTint="@color/primary_blue"
+        android:text="@string/resistance"
+        tools:ignore="HardcodedText" />
+
+</RelativeLayout>

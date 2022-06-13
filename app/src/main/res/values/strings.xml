@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Electrical Circuit Calculator</string>
+    <string name="resistance">Resistance</string>
+    <string name="parallel_capacitor">Parallel Capacitor</string>
+    <string name="series_capacitor">Series Capacitor</string>
+    <string name="series_resistor">Series Resistor</string>
+    <string name="parallel_resistors">Parallel Resistors</string>
+    <string name="ohms_law">Ohms Law</string>
+    <string name="resistance_calculation">Resistance Calculation</string>
+    <string name="voltage_in_series_circuit">Voltage in Series Circuit</string>
+    <string name="current_in_parallel_circuit">Current In Parallel Circuit</string>
+    <string name="formula">Formula</string>
+    <string name="transformer">Transformer</string>
+</resources>
